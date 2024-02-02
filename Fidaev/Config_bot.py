@@ -1,7 +1,7 @@
 bot_token = "token"
 admin_id = "admin_id"
 
-host = "129.20.0.199"
+host = "111.222.333.444"
 pguser = "postgres"
 password = "wireles"
 db_name = "wireless"
