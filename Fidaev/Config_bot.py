@@ -1,5 +1,5 @@
-bot_token = "1803232589:AAFSJ_sF1mZKrC_77r4BjmC55H-MR-LcN7I"
-admin_id = 98908667
+bot_token = "token"
+admin_id = "admin_id"
 
 host = "129.20.0.199"
 pguser = "postgres"
@@ -7,22 +7,22 @@ password = "wireles"
 db_name = "wireless"
 
 Userlist = {
-    '98908667': 'Jaloliddin Fidaev',
-    '51665305': 'Farrux Abdullaev',
-    '196120188': 'Aziz Turdiev',
-    '55226487': 'Elyor Abdukadirov',
-    '138238312': 'Davron Mirzaev',
-    '463272027': 'Azizxon Fatkhullakhudjaev',
-    '173477426': 'Abduxakim Abdazov',
-    '2224478': 'Aziz Kadirov',
-    '409102496': 'Iskander Kadiraliev',
-    '85569107': 'Zafar Mansurov',
-    '427471753': 'Vadim Krivov',
+    '111': 'Jaloliddin Fidaev',
+    '222': 'Farrux Abdullaev',
+    '333': 'Aziz Turdiev',
+    '444': 'Elyor Abdukadirov',
+    '555': 'Davron Mirzaev',
+    '666': 'Azizxon Fatkhullakhudjaev',
+    '777': 'Abduxakim Abdazov',
+    '888': 'Aziz Kadirov',
+    '999': 'Iskander Kadiraliev',
+    '000': 'Zafar Mansurov',
+    '123': 'Vadim Krivov',
 }
 
-users = [98908667, 51665305, 196120188, 55226487,
-         138238312, 463272027, 173477426, 2224478, 409102496,
-         85569107, 427471753]
+users = [111, 222, 333, 444,
+         555, 666, 777, 888, 999,
+         000, 1232]
 
 
 def username(userid):
@@ -30,14 +30,14 @@ def username(userid):
            f"\nUser name: {(Userlist.get(f'{userid}'))}"
 
 
-Test_ID = 2116163519
-Farrux_Abdullaev = 51665305
-Aziz_Turdiev = 196120188
-Elyor_Abdukadirov = 55226487
-Davron_Mirzaev = 138238312
-Azizxon_Fatkhullakhudjaev = 463272027
-Abduxakim_Abdazov = 173477426
-Aziz_Kadirov = 2224478
-Iskander_Kadiraliev = 409102496
-Zafar_Mansurov = 85569107
-Vadim_Krivov = 427471753
+Test_ID = 111
+Farrux_Abdullaev = 222
+Aziz_Turdiev = 333
+Elyor_Abdukadirov = 444
+Davron_Mirzaev = 555
+Azizxon_Fatkhullakhudjaev = 666
+Abduxakim_Abdazov = 777
+Aziz_Kadirov = 888
+Iskander_Kadiraliev = 999
+Zafar_Mansurov = 000
+Vadim_Krivov = 123
